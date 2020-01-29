@@ -275,6 +275,8 @@ public class AndroidBatchScaleImporter extends DialogWrapper implements BatchSca
     }
 
     private void initRowSelection() {
+        table.setSelectionBackground(Color.decode("0xFEFBDE"));         // MPArnold 29/1/2020
+        table.setSelectionForeground(Color.decode("0x6F6F6F"));         // MPArnold 29/1/2020
         table.getColumnModel().setColumnSelectionAllowed(false);
         table.getSelectionModel().setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
