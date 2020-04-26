@@ -1,3 +1,8 @@
+Link to Download ZIP ADI-HACK
+
+https://gpskaihu.nz/ADI-hack/
+
+
 ## Forker's note
 This fork came about because the original package stopped working somewhere around Android Studio 3.5.  
 I have provided an installation zip [here](https://gpskaihu.nz/ADI-hack/).
